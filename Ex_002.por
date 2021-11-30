@@ -7,13 +7,17 @@ programa
 	funcao inicio()
 	{
 		inteiro dia
-		inteiro mes
-		inteiro ano
-
 		escreva("Insira os dias: ")
 		leia(dia)
+		inteiro mes = dia / 30
+		inteiro ano = dia / 365
+		inteiro resto = dia % mes
+		
+		
+		
 
-		escreva("A idade em anos é: " + dia / 365)
+		
+		escreva(dia + "dias equivale(m) a: " + ano + " ano(s), " + mes + " mes(es) e " + resto + " dia(s).")
 		escreva("\nA idade em meses é: " + dia / 12) 
 	}
 }
@@ -22,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 329; 
+ * @POSICAO-CURSOR = 227; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
