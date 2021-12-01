@@ -11,7 +11,7 @@ programa
 		valorCarroImposto = (valorCarro*45) / 100 + valorCarro
 		valorCarroDistr = (valorCarroImposto*28) / 100 + valorCarroImposto
 		escreva("O valor do carro + imposto é de R$ " + valorCarroImposto)
-		escreva("\nO valor do caro + imposto e % do distribuidor é de R$ " + valorCarroDistr)
+		escreva("\nO valor do carro + imposto e % do distribuidor é de R$ " + valorCarroDistr)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 443; 
+ * @POSICAO-CURSOR = 150; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

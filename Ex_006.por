@@ -14,7 +14,8 @@ programa
 		leia(y1)
 		escreva("Digite y2: ")
 		leia(y2)
-
+		
+		
 		eqy = mat.potencia(y2 - y1, 2)
 		eqx = mat.potencia(x2 - x1, 2)
 		escreva(eqy, eqx)
@@ -29,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 81; 
+ * @POSICAO-CURSOR = 255; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
