@@ -7,7 +7,7 @@ programa
 	d) percentual de pessoas com salário até R$100,00.*/
 	
 	funcao inicio()
-	{
+	{	
 		real salario, somaSal = 0.0, mediaSal, porcentoSal, maiorSal = 0.0
 		inteiro filhos, somaFilhos = 0, mediaFilhos, cont = 0, pop = 20
 
@@ -24,7 +24,7 @@ programa
 			se(salario > maiorSal){
 				maiorSal = salario
 			}
-			se(salario <= 100.00){
+			se(salario <= 100.0){
 				cont = cont++
 			}
 		}
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 393; 
+ * @POSICAO-CURSOR = 695; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
