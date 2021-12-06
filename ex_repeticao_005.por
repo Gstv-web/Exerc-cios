@@ -11,15 +11,15 @@ programa
 
 		faca{
 			inicio = inicio + intervalo
-			escreva(inicio + " ")
+			escreva("\n" + inicio + " ")
 			se(inicio >= 300){
 				intervalo = 3
-		}
+			}
 			se(inicio >= 400){
 				intervalo = 5
 			}
 		}
-		enquanto(inicio < 456)
+		enquanto(inicio <= 456)
 		
 	}
 }
@@ -28,9 +28,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 449; 
+ * @POSICAO-CURSOR = 311; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {inicio, 7, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

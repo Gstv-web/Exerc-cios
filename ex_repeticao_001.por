@@ -31,7 +31,7 @@ programa
 		// printar resultados
 		mediaSal = somaSal / pop
 		mediaFilhos = somaFilhos / pop
-		porcentoSal = (cont * 100) / pop
+		porcentoSal = (cont * 100.0) / pop
 		escreva("A média salarial da população pesquisada é de: R$" + mediaSal + "\n")
 		escreva("A média de filhos da população pesquisada é: " + mediaFilhos + "\n")
 		escreva("O maior salário da população pesquisada é de: R$" + maiorSal + "\n")
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 695; 
+ * @POSICAO-CURSOR = 394; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
