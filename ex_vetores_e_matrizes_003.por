@@ -26,24 +26,24 @@ programa
 				leia(n2[l][c])
 			}
 		}
-		// SOMAR VALORES DA PRIMEIRA E SEGUNDA MATRIZ
+		// SOMAR VALORES DA PRIMEIRA E SEGUNDA MATRIZ E MOSTRAR NA TELA
 		escreva("-- Matriz M1 --")
 		para(inteiro l = 0; l < 4; l++){
-			escreva("\n|")
+			escreva("\n| ")
 			para(inteiro c = 0; c < 6; c++){
 				m1[l][c] =  soma[l][c] + (n1[l][c] + n2[l][c])
-				escreva(m1[l][c] + "|")
+				escreva(m1[l][c] + " | ")
 			}
 		}
 
-		// SUBTRAIR VALORES DA PRIMEIRA E SEGUNDA MATRIZ
+		// SUBTRAIR VALORES DA PRIMEIRA E SEGUNDA MATRIZ E MOSTRAR NA TELA
 		escreva("\n\n")
 		escreva("-- Matriz M2 --")
 		para(inteiro l = 0; l < 4; l++){
-			escreva("\n|")
+			escreva("\n| ")
 			para(inteiro c = 0; c < 6; c++){
 				m1[l][c] =  diff[l][c] + (n1[l][c] - n2[l][c])
-				escreva(m1[l][c] + "|")
+				escreva(m1[l][c] + " | ")
 			}
 		}
 	}
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1143; 
+ * @POSICAO-CURSOR = 1400; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
