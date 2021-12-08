@@ -1,5 +1,5 @@
 programa
-{	/*4. Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
+{	/*4. Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
 	em seguida, exiba a soma dos valores dela e a soma dos valores da primeira
 	diagonal, ou seja, diagonal principal.*/
 	
@@ -18,8 +18,8 @@ programa
 		}
 
 		somaDiagonal = somaDiagonal + matriz[0][0] + matriz[1][1] + matriz[2][2]
-		escreva("A soma dos valores de todos os dados da matriz é: " + soma)
-		escreva("A soma dos valores da diagonal é: " + somaDiagonal)
+		escreva("A soma dos valores de todos os dados da matriz é: " + soma + ".")
+		escreva("A soma dos valores da diagonal é: " + somaDiagonal + ".")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 723; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 8, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
